@@ -1,5 +1,4 @@
 # Quick Dict
-#### Video Demo:  https://youtu.be/Rxm0ffNuzKU
 
 ## What is Quick Dict?
 
