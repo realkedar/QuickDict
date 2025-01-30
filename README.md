@@ -10,6 +10,11 @@ To make the extension even more useful, it includes a text-to-speech feature. Wh
 
 Expanding beyond definitions, the extension could also offer translation capabilities. For users learning english, this would be a helpful tool to help them understand words in their own language.
 
+## Installation
+
+Please clone this repo and use 'Load Unpacked Extension'.
+Read more on [Development Basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
+
 ## Design choice
 The interface is intuitive and unobtrusive. I have used plain CSS for the design as I wanted to customise it to my liking. For the definitions, I decided to use a unordered list format for the output. 
 
