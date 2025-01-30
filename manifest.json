@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Dict",
+    "version": "1.0",
+    "description": "This extension allows you to define, translate and listen to the pronunciation of a word. There are over 40 languages available for translation.",
+    "action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/sound.svg",
+        "48": "images/icon.png"
+    },
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "scripting"
+    ]
+  }
